@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //javascript - JIT
+      //Just in Time compilation
+
+      //JS guy and context guy
+      //1. All the declaration
+
+      console.log(a); // skip
+      var a = 10; // noted a
+      console.log(a); // skip
+
+      //2.execution
+      console.log(a); // yes know a, but no valur so undefined
+      var a = 10; //value of a noted
+      console.log(a); //10 is printed
+
+      console.log(b); // Error called b is not defined
+      var b = 10; // noted a
+      console.log(b); // skip
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //lexic al scope
+      var price = 400;
+      function getPrice() {
+        var price = 500;
+        console.log("the new price is", price);
+      }
+    </script>
+  </body>
+</html>
