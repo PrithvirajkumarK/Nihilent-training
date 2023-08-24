@@ -10,6 +10,9 @@
         height: 400px;
         border-radius: 10%;
         aspect-ratio: 1/1;
+        transition: all 1s;
+        cursor: pointer;
+        clip-path: none;
       }
       div {
         padding: 210px;
@@ -38,7 +41,19 @@
         color: hsl(0, 8%, 82%);
         font-size: 120%;
         line-height: 30px;
+        transition: all 1s;
+      }
+      p:hover{
+        transform: scale(1.5);
       }
       b {
         color: white;
+      }
+      img:hover{
+        border-radius: 40%;
+        transform: scale(1.2) ;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+      img:active{
+        transform: scale(1.5) rotate(0deg);
       }
