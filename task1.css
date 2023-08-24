@@ -12,7 +12,9 @@
         aspect-ratio: 1/1;
       }
       div {
-        padding: 250px;
+        padding: 210px;
+        height: 400px;
+        aspect-ratio: 1/1;
         text-align: center;
       }
       h1 {
